@@ -16,9 +16,12 @@
                 <a class="logo" href="index.html">
                     <h1 class="logo__nombre no-margin centrar-texto">B<span class="logo__bold">T</span></h1>
                 </a>
-
+                <div class="mobile-menu">
+                    <img src="../img/Foto-menu.png" alt="icono menu responsive">
+                </div>
+                
                 <nav class="navegacion">
-                    <a href="index.html" class="navegacion__enlace">Home</a>      
+                    <a href="../index.html" class="navegacion__enlace">Home</a>      
                     <a href="paises.html" class="navegacion__enlace">Países</a>  
                     <a href="blog.html" class="navegacion__enlace">Blog</a>  
                     <a href="sobrenosotros.html" class="navegacion__enlace">Sobre Nosotros</a>  
@@ -35,9 +38,9 @@
     <main class="contenedor">
         <h2 class="centrar-texto linea">Sobre Nosotros</h2>
 
-        <article class="nosotros-contenido">
+        <article class="nosotros-contenido linea">
             <div class="nosotros__imagen">
-                <img src="img/foto-viajero.jpg" alt="sobre nosotros">
+                <img src="../img/foto-viajero.jpg" alt="sobre nosotros">
             </div>
             <div class="nosotros__info">
                 <p>¡Bienvenido a nuestra página web sobre viajes! Aquí encontrarás todo lo que necesitas saber sobre fascinantes destinos turísticos, curiosidades sorprendentes y valiosos consejos para que tus aventuras sean inolvidables.
@@ -51,17 +54,39 @@
                 <br>¡Empieza a explorar el mundo con nosotros hoy mismo y deja que tus viajes te lleven a lugares extraordinarios!</p>
             </div>
         </article>
+
+        <form class="formulario">
+            <h3 class="centrar-texto">¿Quieres dejar tu historia marcada aqui?</h3>
+            <p>Completa el formulario y te contactaremos</p>
+            <fieldset>
+                <legend>Informacion Personal</legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Tu nombre" id="nombre">
+                
+                <label for="email">E-mail</label>
+                <input type="text" placeholder="Tu email" id="email">
+                
+                <label for="telefono">Telefono</label>
+                <input type="text" placeholder="Tu telefono" id="telefono">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje"></textarea>
+
+                <button class="boton boton-formulario">Enviar</button>
+            </fieldset>
+        </form>    
     </main>
 
     <footer class="footer">
         <div class="contenedor">
             <div class="barra">
-                <a class="logo" href="index.html">
+                <a class="logo" href="../index.html">
                     <h1 class="logo__nombre no-margin centrar-texto">B<span class="logo__bold">T</span></h1>
                 </a>
     
                 <nav class="navegacion">
-                    <a href="index.html" class="navegacion__enlace">Home</a>      
+                    <a href="../index.html" class="navegacion__enlace">Home</a>      
                     <a href="paises.html" class="navegacion__enlace">Países</a>  
                     <a href="blog.html" class="navegacion__enlace">Blog</a>  
                     <a href="sobrenosotros.html" class="navegacion__enlace">Sobre Nosotros</a>  
@@ -69,5 +94,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="../script/main.js"></script>
 </body>
 </html>

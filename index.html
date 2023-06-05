@@ -8,7 +8,7 @@
     <meta name="description" content="Pagina web de blog de café">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 
@@ -16,21 +16,24 @@
     <header class="header">
         <div class="contenedor">
             <div class="barra">
+                
                 <a class="logo" href="index.html">
                     <h1 class="logo__nombre no-margin centrar-texto">B<span class="logo__bold">T</span></h1>
                 </a>
 
-
+                <div class="mobile-menu">
+                    <img src="img/Foto-menu.png" alt="icono menu responsive">
+                </div>
+                
                 <nav class="navegacion">
-                    <a href="index.html" class="navegacion__enlace">Home</a>      
-                    <a href="paises.html" class="navegacion__enlace">Países</a>  
-                    <a href="blog.html" class="navegacion__enlace">Blog</a>  
-                    <a href="sobrenosotros.html" class="navegacion__enlace">Sobre Nosotros</a>  
+                    <a href="index.html" class="navegacion__enlace">Home</a>  
+                    <a href="./pages/paises.html" class="navegacion__enlace">Países</a>
+                    <a href="./pages/blog.html" class="navegacion__enlace">Blog</a>
+                    <a href="./pages/sobrenosotros.html" class="navegacion__enlace">Sobre Nosotros</a>  
                 </nav>
             </div>
         </div>
-
-
+        
         <div class="header__texto">
             <h2 class="no-margin">Book Travels</h2>
             <p class="no-margin">El Primer Paso es Animarse</p>
@@ -192,8 +195,6 @@
         </div>
 
     </main>
-    
-
 
     <footer class="footer">
         <div class="contenedor">
@@ -210,5 +211,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./script/main.js"></script>
 </body>
 </html>
